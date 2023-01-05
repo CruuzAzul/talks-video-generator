@@ -3,9 +3,12 @@ lockfileVersion: 5.3
 specifiers:
   '@remotion/cli': 3.3.27
   '@remotion/eslint-config': ^3.0.0
+  '@remotion/google-fonts': ^3.3.27
+  '@remotion/lottie': ^3.3.27
   '@types/react': ^18.0.26
   '@types/web': ^0.0.86
   eslint: ^8.30.0
+  lottie-web: ^5.10.1
   prettier: ^2.8.1
   react: ^18.0.0
   react-dom: ^18.0.0
@@ -14,6 +17,9 @@ specifiers:
 
 dependencies:
   '@remotion/cli': 3.3.27_react-dom@18.2.0+react@18.2.0
+  '@remotion/google-fonts': 3.3.27_react-dom@18.2.0+react@18.2.0
+  '@remotion/lottie': 3.3.27_b7ab0da5b16461e4e2a82c85c9dabde4
+  lottie-web: 5.10.1
   react: 18.2.0
   react-dom: 18.2.0_react@18.2.0
   remotion: 3.3.27_react-dom@18.2.0+react@18.2.0
@@ -453,6 +459,28 @@ packages:
       - supports-color
       - typescript
     dev: true
+
+  /@remotion/google-fonts/3.3.27_react-dom@18.2.0+react@18.2.0:
+    resolution: {integrity: sha512-3aX4N++q0qI/dbCF1NtfHdaB3ELrJZax/CtBDDBNNX3yUk1QKGb6aa+xaBR93bmJSWRK63iNjd8OxAB3+Pdr7w==}
+    dependencies:
+      remotion: 3.3.27_react-dom@18.2.0+react@18.2.0
+    transitivePeerDependencies:
+      - react
+      - react-dom
+    dev: false
+
+  /@remotion/lottie/3.3.27_b7ab0da5b16461e4e2a82c85c9dabde4:
+    resolution: {integrity: sha512-VSO0MOmYodwYTalVBGTUjCoaBcRPL7xvpCQP20AOpVaVqWlSL+ZKdyabDfXEbBZRkgUPbXustknjng35X8/I2g==}
+    peerDependencies:
+      lottie-web: ^5
+      react: '>=16.8.0'
+      react-dom: '>=16.8.0'
+    dependencies:
+      lottie-web: 5.10.1
+      react: 18.2.0
+      react-dom: 18.2.0_react@18.2.0
+      remotion: 3.3.27_react-dom@18.2.0+react@18.2.0
+    dev: false
 
   /@remotion/media-utils/3.3.27_react-dom@18.2.0+react@18.2.0:
     resolution: {integrity: sha512-Jz6U5wGIfe8fDp4NvcF8aRzxH1lZ7CzVzEJ6Cy9cHmMznLpg/fDfP7k74Vy6Hzo6PGyXpy5cyMvug7r/ZdOWaQ==}
@@ -1915,6 +1943,10 @@ packages:
     hasBin: true
     dependencies:
       js-tokens: 4.0.0
+
+  /lottie-web/5.10.1:
+    resolution: {integrity: sha512-u17bVNf/vA3oK9Wkyb1Vpo83WUIEQwaT0GeEN0qcvaExizyJ/RjmcbjSDj0CnwQCtpGqTgYhqprCC7cTWuXMNw==}
+    dev: false
 
   /lru-cache/6.0.0:
     resolution: {integrity: sha512-Jo6dJ04CmSjuznwJSS3pUeWmd/H0ffTlkXXgwZi+eq1UCmqQwCh+eLsYOYCwY991i2Fah4h1BEMCx4qThGbsiA==}
