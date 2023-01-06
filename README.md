@@ -60,3 +60,12 @@ Notice that for some entities a company license is needed. Read [the terms here]
     <img align="center" src="https://user-images.githubusercontent.com/60877626/210872589-f52c9c24-f440-4552-84b3-da71e77e8231.gif" width="50%" height="auto" />
   </p>
 </p>
+
+---
+
+<p align="center">
+  <h3 align="center">Appwrite est-il prêt à éteindre Firebase ? 🔥</h3>
+  </br>
+  <p align="center">
+    <img align="center" src="https://user-images.githubusercontent.com/60877626/210956699-b5cbd237-ca7d-4fbd-9347-1513eb8150a8.gif" width="50%" height="auto" />
+</p>
