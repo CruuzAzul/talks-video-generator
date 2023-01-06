@@ -64,13 +64,13 @@ export const RemotionTalk: React.FC = () => {
                         style={{
                             height: '60px',
                         }}
-                        src={staticFile('/images/remotion/tnt.png')}
+                        src={staticFile('/images/tnt.png')}
                     />
                     <Img
                         style={{
                             height: '100px',
                         }}
-                        src={staticFile('/images/remotion/snowcamp.png')}
+                        src={staticFile('/images/snowcamp.png')}
                     />
                 </div>
             </Sequence>
