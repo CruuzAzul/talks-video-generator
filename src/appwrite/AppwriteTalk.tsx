@@ -155,7 +155,7 @@ export const AppwriteTalk: React.FC = () => {
                                     textShadow: '0 0 30px #f02e65',
                                 }}
                             >
-                            28 janvier
+                            26 janvier
                         </span>
                         </div>
                         <div
